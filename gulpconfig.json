@@ -1,0 +1,23 @@
+{
+  "browserSyncOptions" : {
+    "proxy": "localhost/iteration2/",
+    "notify": false
+  },
+  "browserSyncWatchFiles" : [
+    "./assets/css/*.min.css",
+    "./assets/js/*.min.js",
+    "./**/*.php"
+  ],
+  "paths" : {
+    "js": "./assets/js",
+    "css": "./assets/css",
+    "img": "./img",
+		"imgsrc": "./src/img",
+    "sass": "./sass",
+    "node": "./node_modules/",
+    "dev": "./src",
+    "dist": "./dist",
+    "distprod": "./dist-product",
+    "vendor": ""
+  }
+}
