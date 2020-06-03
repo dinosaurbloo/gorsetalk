@@ -1,0 +1,8 @@
+/* Clearing ---------------------------------- */
+
+.group::after,
+.entry-content::after {
+	clear: both;
+	content: "";
+	display: block;
+}

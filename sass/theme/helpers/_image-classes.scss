@@ -1,0 +1,30 @@
+/* Image Classes ----------------------------- */
+
+.bg-image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-attachment-fixed {
+	background-attachment: fixed;
+}
+
+@supports ( -webkit-overflow-scrolling: touch ) {
+
+	.bg-attachment-fixed {
+		background-attachment: scroll;
+	}
+}
+
+@media ( prefers-reduced-motion: reduce ) {
+
+	.bg-attachment-fixed {
+		background-attachment: scroll;
+	}
+}
+
+.wp-block-image.is-resized {
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,19 @@
+/* Navigation Toggle ------------------------- */
+
+.nav-toggle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	width: 6.6rem;
+}
+
+.nav-toggle .toggle-icon,
+.nav-toggle svg {
+	height: 0.8rem;
+	width: 2.6rem;
+}
+
+.nav-toggle .toggle-inner {
+	padding-top: 0.8rem;
+}
